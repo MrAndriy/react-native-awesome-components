@@ -75,6 +75,16 @@ function RootLayoutNav() {
               },
             }}
           />
+          <Stack.Screen
+            name='(components)/react-native-gifted-chat'
+            options={{
+              title: 'react-native-gifted-chat',
+              headerShadowVisible: false,
+              headerStyle: {
+                backgroundColor: '#E2E8F0',
+              },
+            }}
+          />
         </Stack>
       
     

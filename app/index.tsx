@@ -18,6 +18,13 @@ const data = [
     href: '/react-native-bottom-sheet',
     link: 'https://github.com/gorhom/react-native-bottom-sheet',
   },
+  {
+    _id: 3,
+    title: 'react-native-gifted-chat',
+    description: 'The most complete chat UI for React Native',
+    href: '/react-native-gifted-chat',
+    link: 'https://github.com/FaridSafi/react-native-gifted-chat',
+  },
 ]
 
 export default function ModalScreen() {
