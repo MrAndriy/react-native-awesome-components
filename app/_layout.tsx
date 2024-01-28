@@ -123,6 +123,16 @@ function RootLayoutNav() {
           },
         }}
       />
+      <Stack.Screen
+        name="(components)/calendar"
+        options={{
+          headerTitle: '',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
     </Stack>
   )
 }

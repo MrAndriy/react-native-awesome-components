@@ -54,6 +54,13 @@ const data = [
     href: '/page-view',
     link: 'https://github.com/callstack/react-native-pager-view',
   },
+  {
+    _id: 8,
+    title: 'Calendar',
+    description: 'React Native ViewPage component',
+    href: '/calendar',
+    link: 'https://github.com/wix/react-native-calendars',
+  },
 ]
 
 export default function ModalScreen() {
