@@ -47,7 +47,7 @@ function RootLayoutNav() {
       <Stack.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Awesome components',
           headerStyle: {
             backgroundColor: '#E2E8F0',
           },
@@ -56,7 +56,7 @@ function RootLayoutNav() {
       <Stack.Screen
         name="(components)/react-native-bouncy-checkbox"
         options={{
-          title: 'react-native-bouncy-checkbox',
+          headerTitle: '',
           headerShadowVisible: false,
           headerStyle: {
             backgroundColor: '#E2E8F0',
@@ -66,7 +66,7 @@ function RootLayoutNav() {
       <Stack.Screen
         name="(components)/react-native-bottom-sheet"
         options={{
-          title: 'react-native-bottom-sheet',
+          headerTitle: '',
           headerShadowVisible: false,
           headerStyle: {
             backgroundColor: '#E2E8F0',
@@ -76,7 +76,7 @@ function RootLayoutNav() {
       <Stack.Screen
         name="(components)/react-native-gifted-chat"
         options={{
-          title: 'react-native-gifted-chat',
+          headerTitle: '',
           headerShadowVisible: false,
           headerStyle: {
             backgroundColor: '#E2E8F0',
@@ -86,7 +86,27 @@ function RootLayoutNav() {
       <Stack.Screen
         name="(components)/chart"
         options={{
-          title: 'chart',
+          headerTitle: '',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/toast"
+        options={{
+          headerTitle: '',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/skeleton"
+        options={{
+          headerTitle: '',
           headerShadowVisible: false,
           headerStyle: {
             backgroundColor: '#E2E8F0',
