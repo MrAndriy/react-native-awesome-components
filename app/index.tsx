@@ -61,6 +61,13 @@ const data = [
     href: '/calendar',
     link: 'https://github.com/wix/react-native-calendars',
   },
+  {
+    _id: 9,
+    title: 'Flash list',
+    description: 'React Native FlatList component',
+    href: '/flash-list',
+    link: 'https://shopify.github.io/flash-list',
+  },
 ]
 
 export default function ModalScreen() {

@@ -133,6 +133,16 @@ function RootLayoutNav() {
           },
         }}
       />
+      <Stack.Screen
+        name="(components)/flash-list"
+        options={{
+          headerTitle: '',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
     </Stack>
   )
 }
