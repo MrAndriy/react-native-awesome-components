@@ -113,6 +113,16 @@ function RootLayoutNav() {
           },
         }}
       />
+      <Stack.Screen
+        name="(components)/page-view"
+        options={{
+          headerTitle: '',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
     </Stack>
   )
 }

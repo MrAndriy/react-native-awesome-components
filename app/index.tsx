@@ -43,9 +43,16 @@ const data = [
   {
     _id: 6,
     title: 'Skeleton',
-    description: 'React Native skeleton component',
+    description: 'SVG powered React Native skeleton component',
     href: '/skeleton',
     link: 'https://github.com/danilowoz/react-content-loader',
+  },
+  {
+    _id: 7,
+    title: 'Page View',
+    description: 'React Native ViewPage component',
+    href: '/page-view',
+    link: 'https://github.com/callstack/react-native-pager-view',
   },
 ]
 
