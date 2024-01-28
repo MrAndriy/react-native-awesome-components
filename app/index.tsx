@@ -25,6 +25,13 @@ const data = [
     href: '/react-native-gifted-chat',
     link: 'https://github.com/FaridSafi/react-native-gifted-chat',
   },
+  {
+    _id: 4,
+    title: 'chart',
+    description: 'A simple chart for React Native using chartkit',
+    href: '/chart',
+    link: '',
+  },
 ]
 
 export default function ModalScreen() {

@@ -16,7 +16,7 @@ const initialMessages = [
     user: {
       _id: 2,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
   },
   {
@@ -26,9 +26,9 @@ const initialMessages = [
     user: {
       _id: 1,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
-    image: 'https://placeimg.com/960/540/any',
+    image: 'http://placekitten.com/g/200/300',
   },
   {
     _id: 4,
@@ -37,7 +37,7 @@ const initialMessages = [
     user: {
       _id: 2,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
     quickReplies: {
       type: 'radio', // or 'checkbox',
@@ -65,7 +65,7 @@ const initialMessages = [
     user: {
       _id: 2,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
     quickReplies: {
       type: 'checkbox', // or 'radio',
@@ -92,7 +92,7 @@ const initialMessages = [
     user: {
       _id: 2,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
   },
   {
@@ -105,7 +105,7 @@ const initialMessages = [
     user: {
       _id: 1,
       name: 'React Native',
-      avatar: 'https://placeimg.com/140/140/any',
+      avatar: 'https://xsgames.co/randomusers/avatar.php?g=male',
     },
   },
 ]
@@ -124,6 +124,7 @@ const ReactNativeGiftedChat = () => {
   return (
     <SafeAreaView className="flex-1 bg-slate-200">
       <GiftedChat
+        messagesContainerStyle={{ marginBottom: 20 }}
         messages={messages}
         onSend={(messages) => onSend(messages)}
         user={{

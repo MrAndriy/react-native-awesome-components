@@ -4,7 +4,6 @@ import { Stack } from 'expo-router'
 import * as SplashScreen from 'expo-splash-screen'
 import { useEffect } from 'react'
 
-
 export {
   // Catch any errors thrown by the Layout component.
   ErrorBoundary,
@@ -44,49 +43,56 @@ export default function RootLayout() {
 
 function RootLayoutNav() {
   return (
-    
-        <Stack>
-          <Stack.Screen
-            name="index"
-            options={{
-              title: 'Home',
-              headerStyle: {
-                backgroundColor: '#E2E8F0',
-              },
-            }}
-          />
-          <Stack.Screen
-            name="(components)/react-native-bouncy-checkbox"
-            options={{
-              title: 'react-native-bouncy-checkbox',
-              headerShadowVisible: false,
-              headerStyle: {
-                backgroundColor: '#E2E8F0',
-              },
-            }}
-          />
-          <Stack.Screen
-            name="(components)/react-native-bottom-sheet"
-            options={{
-              title: 'react-native-bottom-sheet',
-              headerShadowVisible: false,
-              headerStyle: {
-                backgroundColor: '#E2E8F0',
-              },
-            }}
-          />
-          <Stack.Screen
-            name='(components)/react-native-gifted-chat'
-            options={{
-              title: 'react-native-gifted-chat',
-              headerShadowVisible: false,
-              headerStyle: {
-                backgroundColor: '#E2E8F0',
-              },
-            }}
-          />
-        </Stack>
-      
-    
+    <Stack>
+      <Stack.Screen
+        name="index"
+        options={{
+          title: 'Home',
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/react-native-bouncy-checkbox"
+        options={{
+          title: 'react-native-bouncy-checkbox',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/react-native-bottom-sheet"
+        options={{
+          title: 'react-native-bottom-sheet',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/react-native-gifted-chat"
+        options={{
+          title: 'react-native-gifted-chat',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+      <Stack.Screen
+        name="(components)/chart"
+        options={{
+          title: 'chart',
+          headerShadowVisible: false,
+          headerStyle: {
+            backgroundColor: '#E2E8F0',
+          },
+        }}
+      />
+    </Stack>
   )
 }
